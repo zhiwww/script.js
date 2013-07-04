@@ -5,7 +5,7 @@
 })('$script', this, function() {
   var doc = document
     , head = doc.getElementsByTagName('head')[0]
-    , validBase = /^https?:\/\//
+    , validBase = /^(https?:)?\/\//
     , list = {}, ids = {}, delay = {}, scriptpath
     , scripts = {}, s = 'string', f = false
     , push = 'push', domContentLoaded = 'DOMContentLoaded', readyState = 'readyState'
